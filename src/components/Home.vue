@@ -7,7 +7,7 @@
             <b-input-group name="Search" prepend="Pokemon Name" class="mt-3"  >
               <b-form-input v-on:keyup.enter="checkname" v-model="searchterm"></b-form-input>
               <b-input-group-append>
-                <b-button @click="checkname" variant="info">Search</b-button>
+                <b-button @click="checkname" variant="info">Search 1</b-button>
               </b-input-group-append>
             </b-input-group>
           </div>
